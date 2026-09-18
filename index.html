@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
-<html lang="hu"> 
-    
+<html lang="hu">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,168 +27,352 @@
 
 <header>
     <nav>
-    <a href="index.html">Főoldal</a>
-    <a href="rolam.html">Rólam</a>
-    <a href="projektek.html">Projektek</a>
-    <a href="#kepessegek">Képességek</a>
-    <a href="#galeria">Galéria</a>
-    <a href="kapcsolat.html">Kapcsolat</a>
-    <a href="#video">Videó</a>
+        <a href="index.html">Főoldal</a>
+        <a href="rolam.html">Rólam</a>
+        <a href="projektek.html">Projektek</a>
+        <a href="#kepessegek">Képességek</a>
+        <a href="#galeria">Galéria</a>
+        <a href="kapcsolat.html">Kapcsolat</a>
+        <a href="#video">Videó</a>
     </nav>
 </header>
 
+
 <main>
 
-<section id="fooldal">
-    <h1>Üdvözöllek a portfóliómban!</h1>
-</section>
+    <!-- Főoldal -->
+    <section id="fooldal">
+        <h1>Üdvözöllek a portfóliómban!</h1>
+    </section>
 
-<div class="container">
 
-    <div>
-        <section id="rolam">
-            <h1>Rólam</h1>
+    <!-- Rólam és képességeim -->
+    <div class="container">
 
-            <img class="avatar" src="profilkep.jpg" alt="A profilképem">
+        <div>
+            <section id="rolam">
+                <h1>Rólam</h1>
 
-            <h2>Bemutatkozás</h2>
-            <p>
-                Szia! A nevem
-                <span style="color: royalblue;">Csiszér Alpár</span>.
-                Érdeklődöm a webfejlesztés és a programozás iránt.
-            </p>
+                <img class="avatar" src="profilkep.jpg" alt="A profilképem">
 
-            <h2>Érdeklődési körök</h2>
-            <p>
-                Szabadidőmben szeretek zenét hallgatni, <span style="color: seagreen;">filmeket nézni</span>,
-                számítógépes játékokkal játszani.
-            </p>
-        </section>
-    </div>
+                <h2>Bemutatkozás</h2>
 
-    <div>
-        <section id="kepessegek">
-            <h1>Képességeim</h1>
+                <p>
+                    Szia! A nevem
+                    <span style="color: royalblue;">Csiszér Alpár</span>.
+                    Érdeklődöm a webfejlesztés és a programozás iránt.
+                </p>
 
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Webfejlesztés</li>
-            </ul>
-        </section>
-    </div>
+                <h2>Érdeklődési körök</h2>
 
-</div>
+                <p>
+                    Szabadidőmben szeretek zenét hallgatni,
+                    <span style="color: seagreen;">filmeket nézni</span>,
+                    számítógépes játékokkal játszani.
+                </p>
+            </section>
+        </div>
 
-    <section id="projektek"> <h1>Projektek</h1>
 
-<table>
-    <tr>
-        <th>Projekt neve</th>
-        <th>Leírás</th>
-        <th>Használt technológiák</th>
-    </tr>
+        <div>
+            <section id="kepessegek">
+                <h1>Képességeim</h1>
 
-    <tr>
-        <td id="projekt1">Portfólió weboldal</td>
-        <td>Egy egyszerű személyes portfólió weboldal.</td>
-        <td>HTML, CSS</td>
-    </tr>
-
-    <tr>
-        <td id="projekt2">Weboldal projekt</td>
-        <td>Egy gyakorló weboldal elkészítése.</td>
-        <td>HTML, CSS, JavaScript</td>
-    </tr>
-
-    <tr>
-        <td id="projekt3">JavaScript alkalmazás</td>
-        <td>Egy egyszerű interaktív alkalmazás.</td>
-        <td>HTML, CSS, JavaScript</td>
-    </tr>
-</table>
-
-</section>
-
-<section id="galeria">
-    <h1>Galéria</h1>
-
-    <div class="grid">
-
-        <figure>
-            <img src="projekt1.jpg" alt="A portfólió weboldal képe">
-            <figcaption>Portfólió weboldal</figcaption>
-        </figure>
-
-        <figure>
-            <img src="projekt2.jpg" alt="A weboldal projekt képe">
-            <figcaption>Weboldal projekt</figcaption>
-        </figure>
-
-        <figure>
-            <img src="projekt3.jpg" alt="A JavaScript alkalmazás képe">
-            <figcaption>JavaScript alkalmazás</figcaption>
-        </figure>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Webfejlesztés</li>
+                </ul>
+            </section>
+        </div>
 
     </div>
-</section>
 
-<section id="video"> <h1>Projekt bemutató videó</h1>
 
-<iframe
-    width="560"
-    height="315"
-    src="https://www.youtube.com/embed/FwnGg-02q2k?si=OOzwLt3guOv1wtK7"
-    title="Projekt bemutató videó"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    referrerpolicy="strict-origin-when-cross-origin"
-    allowfullscreen>
-</iframe>
+    <!-- Projektek -->
+    <section id="projektek">
+        <h1>Projektek</h1>
 
-</section>
+        <table>
+            <tr>
+                <th>Projekt neve</th>
+                <th>Leírás</th>
+                <th>Használt technológiák</th>
+            </tr>
 
-    <section id="kapcsolat"> <h1>Kapcsolat</h1>
+            <tr>
+                <td id="projekt1">Portfólió weboldal</td>
+                <td>Egy egyszerű személyes portfólió weboldal.</td>
+                <td>HTML, CSS</td>
+            </tr>
 
-<form>
-    <label for="nev">Név:</label>
-    <input type="text" id="nev" name="nev">
+            <tr>
+                <td id="projekt2">Weboldal projekt</td>
+                <td>Egy gyakorló weboldal elkészítése.</td>
+                <td>HTML, CSS, JavaScript</td>
+            </tr>
 
-    <br><br>
+            <tr>
+                <td id="projekt3">JavaScript alkalmazás</td>
+                <td>Egy egyszerű interaktív alkalmazás.</td>
+                <td>HTML, CSS, JavaScript</td>
+            </tr>
+        </table>
+    </section>
 
-    <label for="email">E-mail cím:</label>
-    <input type="email" id="email" name="email">
 
-    <br><br>
+    <!-- Galéria -->
+    <section id="galeria">
+        <h1>Galéria</h1>
 
-    <label for="uzenet">Üzenet:</label>
-    <br>
-    <textarea id="uzenet" name="uzenet" rows="5" cols="40"></textarea>
+        <div class="grid">
 
-    <br><br>
+            <figure>
+                <img src="projekt1.jpg" alt="A portfólió weboldal képe">
+                <figcaption>Portfólió weboldal</figcaption>
+            </figure>
 
-    <button type="submit">Küldés</button>
-</form>
+            <figure>
+                <img src="projekt2.jpg" alt="A weboldal projekt képe">
+                <figcaption>Weboldal projekt</figcaption>
+            </figure>
 
-</section>
+            <figure>
+                <img src="projekt3.jpg" alt="A JavaScript alkalmazás képe">
+                <figcaption>JavaScript alkalmazás</figcaption>
+            </figure>
+
+        </div>
+    </section>
+
+
+    <!-- Videó -->
+    <section id="video">
+        <h1>Projekt bemutató videó</h1>
+
+        <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/FwnGg-02q2k?si=OOzwLt3guOv1wtK7"
+            title="Projekt bemutató videó"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+        </iframe>
+    </section>
+
+
+    <!-- Kapcsolat -->
+    <section id="kapcsolat">
+        <h1>Kapcsolat</h1>
+
+        <form>
+            <label for="nev">Név:</label>
+            <input type="text" id="nev" name="nev">
+
+            <br><br>
+
+            <label for="email">E-mail cím:</label>
+            <input type="email" id="email" name="email">
+
+            <br><br>
+
+            <label for="uzenet">Üzenet:</label>
+            <br>
+
+            <textarea id="uzenet" name="uzenet" rows="5" cols="40"></textarea>
+
+            <br><br>
+
+            <button type="submit">Küldés</button>
+        </form>
+    </section>
 
 </main>
 
-<aside> <h2>Projektjeim</h2>
 
-<ul>
-    <li><a href="#projekt1">Portfólió weboldal</a></li>
-    <li><a href="#projekt2">Weboldal projekt</a></li>
-    <li><a href="#projekt3">JavaScript alkalmazás</a></li>
-</ul>
+<!-- Oldalsáv -->
+<aside>
+    <h2>Projektjeim</h2>
 
+    <ul>
+        <li><a href="#projekt1">Portfólió weboldal</a></li>
+        <li><a href="#projekt2">Weboldal projekt</a></li>
+        <li><a href="#projekt3">JavaScript alkalmazás</a></li>
+    </ul>
 </aside>
 
+
+<section id="javascript-gyakorlatok">
+    <h2>JavaScript gyakorlatok</h2>
+
+    <h3>1. Két szám összeadása</h3>
+    <p id="additionResult"></p>
+
+    <h3>2. Páros vagy páratlan?</h3>
+    <p id="evenResult"></p>
+
+    <h3>3. Számláló</h3>
+    <button onclick="incrementCounter()">Növelés</button>
+    <p id="counter">0</p>
+
+    <h3>4. Adat bekérése</h3>
+    <button onclick="askName()">Kérdezd meg a nevét</button>
+    <p id="name"></p>
+
+    <h3>5. Visszaszámláló</h3>
+    <button onclick="startCountdown()">Indítsd el</button>
+    <p id="countdown">10</p>
+
+    <h3>6. Gyümölcsök</h3>
+    <ul id="fruitList"></ul>
+
+    <h3>8. Személy adatai</h3>
+    <ul id="personInfo"></ul>
+
+    <h3>9. Háttérszín változtatása</h3>
+    <button onclick="changeBg()">Háttér váltás</button>
+</section>
+
+
+<script>
+
+    // 1.
+    function add(a, b) {
+    return a + b;
+}
+
+    document.getElementById("additionResult").innerText =
+    "3 + 4 = " + add(3, 4);
+
+
+    // 2.
+    function isEven(num) {
+    return num % 2 === 0;
+}
+
+    document.getElementById("evenResult").innerText =
+    "4 páros: " + isEven(4) +
+    " | 5 páros: " + isEven(5);
+
+    // 3.
+    let count = 0;
+
+    function incrementCounter() {
+        count++;
+
+        document.getElementById("counter").innerText = count;
+    }
+
+
+    // 4.
+    function askName() {
+
+        let name = prompt("Mi a neved?");
+
+        document.getElementById("name").innerText =
+            "Üdvözöllek, " + name + "!";
+    }
+
+
+    // 5.
+    function startCountdown() {
+
+        let timeLeft = 10;
+
+        let timer = setInterval(function() {
+
+            if (timeLeft <= 0) {
+
+                clearInterval(timer);
+
+                document.getElementById("countdown").innerText =
+                    "Idő lejárt!";
+
+            } else {
+
+                document.getElementById("countdown").innerText =
+                    timeLeft;
+            }
+
+            timeLeft--;
+
+        }, 1000);
+    }
+
+
+    // 6.
+    let fruits = ["Alma", "Banán", "Narancs"];
+
+    fruits.forEach(function(fruit) {
+
+        document.getElementById("fruitList").innerHTML +=
+            "<li>" + fruit + "</li>";
+
+    });
+
+
+    // 7. 
+    function multiplyArray(arr, multiplier) {
+
+        return arr.map(num => num * multiplier);
+
+    }
+
+    let numbers = [1, 2, 3, 4];
+
+    console.log(multiplyArray(numbers, 2));
+    // [2, 4, 6, 8]
+
+
+    // 8.
+    let person = {
+        name: "John",
+        age: 30,
+        city: "Budapest"
+    };
+
+    for (let key in person) {
+
+        document.getElementById("personInfo").innerHTML +=
+            "<li>" + key + ": " + person[key] + "</li>";
+
+    }
+
+
+    // 9.
+    function changeBg() {
+    if (document.body.style.backgroundColor === "lightcoral") {
+        document.body.style.backgroundColor = "#f4f8ff";
+    } else {
+        document.body.style.backgroundColor = "lightcoral";
+    }
+}
+
+    // 10.
+    window.onload = function() {
+
+        setTimeout(function() {
+
+            alert("Üdvözöllek az oldalon!");
+
+        }, 5000);
+
+    };
+
+</script>
+
+
 <footer>
+
     <p>&copy; 2026 Csiszér Alpár. Minden jog fenntartva.</p>
+
     <p>E-mail: alpar@example.com</p>
+
 </footer>
 
-</body> 
+
+</body>
 
 </html>
