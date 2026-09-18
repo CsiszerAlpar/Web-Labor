@@ -1,6 +1,27 @@
 <!DOCTYPE html>
 
-<html lang="hu"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Portfólióm</title> </head>
+<html lang="hu"> 
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólióm</title>
+
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="components.css">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        figcaption {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        #fooldal {
+            text-align: center;
+        }
+    </style>
+</head>
 
 <body>
 
@@ -18,43 +39,51 @@
 
 <main>
 
-    <section id="fooldal">
-        <h1>Üdvözöllek a portfóliómban!</h1>
-    </section>
-
-    <section id="rolam"> <h1>Rólam</h1>
-
-<img src="profilkep.jpg" alt="A profilképem">
-
-<h2>Bemutatkozás</h2>
-<p>
-    Szia! A nevem Csiszér Alpár.
-    Érdeklődöm a webfejlesztés és a programozás iránt.
-    Szeretek új dolgokat tanulni és projekteken dolgozni.
-</p>
-
-<h2>Érdeklődési körök</h2>
-<p>
-    Szabadidőmben szeretek zenét hallgatni, filmeket nézni,
-    számítógépes játékokkal játszani.
-</p>
-
+<section id="fooldal">
+    <h1>Üdvözöllek a portfóliómban!</h1>
 </section>
 
-    <section id="kepessegek"> <h1>Képességeim</h1>
+<div class="container">
 
-<ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JavaScript</li>
-    <li>Webfejlesztés</li>
-</ul>
+    <div>
+        <section id="rolam">
+            <h1>Rólam</h1>
 
-</section>
+            <img class="avatar" src="profilkep.jpg" alt="A profilképem">
+
+            <h2>Bemutatkozás</h2>
+            <p>
+                Szia! A nevem
+                <span style="color: royalblue;">Csiszér Alpár</span>.
+                Érdeklődöm a webfejlesztés és a programozás iránt.
+            </p>
+
+            <h2>Érdeklődési körök</h2>
+            <p>
+                Szabadidőmben szeretek zenét hallgatni, <span style="color: seagreen;">filmeket nézni</span>,
+                számítógépes játékokkal játszani.
+            </p>
+        </section>
+    </div>
+
+    <div>
+        <section id="kepessegek">
+            <h1>Képességeim</h1>
+
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Webfejlesztés</li>
+            </ul>
+        </section>
+    </div>
+
+</div>
 
     <section id="projektek"> <h1>Projektek</h1>
 
-<table border="1">
+<table>
     <tr>
         <th>Projekt neve</th>
         <th>Leírás</th>
@@ -82,28 +111,40 @@
 
 </section>
 
-    <section id="galeria"> <h1>Galéria</h1>
+<section id="galeria">
+    <h1>Galéria</h1>
 
-<figure>
-    <img src="projekt1.jpg" alt="A portfólió weboldal képe">
-    <figcaption>Portfólió weboldal</figcaption>
-</figure>
+    <div class="grid">
 
-<figure>
-    <img src="projekt2.jpg" alt="A weboldal projekt képe">
-    <figcaption>Weboldal projekt</figcaption>
-</figure>
+        <figure>
+            <img src="projekt1.jpg" alt="A portfólió weboldal képe">
+            <figcaption>Portfólió weboldal</figcaption>
+        </figure>
 
-<figure>
-    <img src="projekt3.jpg" alt="A JavaScript alkalmazás képe">
-    <figcaption>JavaScript alkalmazás</figcaption>
-</figure>
+        <figure>
+            <img src="projekt2.jpg" alt="A weboldal projekt képe">
+            <figcaption>Weboldal projekt</figcaption>
+        </figure>
 
+        <figure>
+            <img src="projekt3.jpg" alt="A JavaScript alkalmazás képe">
+            <figcaption>JavaScript alkalmazás</figcaption>
+        </figure>
+
+    </div>
 </section>
 
 <section id="video"> <h1>Projekt bemutató videó</h1>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FwnGg-02q2k?si=OOzwLt3guOv1wtK7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/FwnGg-02q2k?si=OOzwLt3guOv1wtK7"
+    title="Projekt bemutató videó"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+</iframe>
 
 </section>
 
